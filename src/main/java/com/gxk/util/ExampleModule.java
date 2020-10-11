@@ -1,4 +1,4 @@
-package com.cyc.util;
+package com.gxk.util;
 
 import net.hasor.core.ApiBinder;
 import net.hasor.core.DimModule;
@@ -20,7 +20,6 @@ public class ExampleModule implements SpringModule {
 
     @Override
     public void loadModule(ApiBinder apiBinder) throws Throwable {
-        // .DataSource form Spring boot into Hasor
         apiBinder.installModule(new JdbcModule(Level.Full, this.dataSource));
     }
 }

@@ -8,7 +8,7 @@
         <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.cyc</groupId>
+    <groupId>com.gxk</groupId>
     <artifactId>springboot-dataway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-dataway</name>
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.30</version>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
